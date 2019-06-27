@@ -1,6 +1,7 @@
 ###############################################################
 ## Environment and client stuff.                             ##
 ###############################################################
+### New comment ###
 $clientName				= "ZGEN"	# This used to seed the config settings, database names, etc. So don't use characters like %,* , <> and so on...
 $envType				= "QA"		# Only use Demo, Demo, CERT and PROD here so we can keep things consistant. 
 $baseDeploymentPath 	= [string]::Format("{0}_{1}", $clientName, $envType)
